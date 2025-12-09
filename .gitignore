@@ -1,0 +1,43 @@
+#ignore the C compiled code files
+*.o
+*.out
+*.exe
+*.obj
+*.dll
+*.so
+*.dylib
+# ignore backup files
+*~
+*.bak
+*.swp
+# ignore log files
+*.log
+# ignore compiled Python files
+*.pyc
+__pycache__/
+# ignore node modules
+node_modules/
+# ignore build directories
+build/
+dist/
+# ignore coverage reports
+coverage/
+coverage/html/
+# ignore test output
+test_output/
+# ignore IDE specific files
+.vscode/
+.idea/
+*.iml
+*.suo
+*.user
+*.userosscache
+*.sln
+*.xcodeproj
+*.xcworkspace
+# ignore OS generated files
+.DS_Store
+Thumbs.db
+#extra files to ignore
+cpu
+mem
