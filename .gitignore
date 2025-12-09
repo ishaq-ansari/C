@@ -42,3 +42,5 @@ Thumbs.db
 cpu
 mem
 threads
+io
+tmp/
