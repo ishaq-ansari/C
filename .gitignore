@@ -41,3 +41,4 @@ Thumbs.db
 #extra files to ignore
 cpu
 mem
+threads
