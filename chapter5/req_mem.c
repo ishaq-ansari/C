@@ -7,9 +7,11 @@ void func() {
   }
 
 
+
 // this requests memory on the heap
+#include <stdlib.h>
 void func() {
-  int *x = malloc(sizeof(int)); // allocates an integer on the heap
+  int *x = malloc(sizeof(int)); // allocates an integer on the heap. must specify size
   ...
   free(x); // frees the allocated memory
   }
